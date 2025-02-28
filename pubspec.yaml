@@ -1,0 +1,28 @@
+name: hello
+description: Une application pour signaler des urgences et partager la localisation.
+
+publish_to: 'none' # Cette ligne empêche la publication sur pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0" # Assurez-vous que la version du SDK Dart est compatible
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  location: ^4.3.0
+  url_launcher: ^6.0.20
+  share_plus: ^6.0.0 # Ajoutez cette ligne pour le partage
+  connectivity_plus: ^3.0.6 # Ajoutez cette ligne pour vérifier la connectivité
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Ajoutez ici vos fichiers d'assets si nécessaire

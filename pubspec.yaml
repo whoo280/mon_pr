@@ -1,12 +1,12 @@
 name: hello
-description: Une application pour signaler des urgences et partager la localisation.
+description: A Flutter application for reporting emergencies.
 
-publish_to: 'none' # Cette ligne empêche la publication sur pub.dev
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0" # Assurez-vous que la version du SDK Dart est compatible
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -14,8 +14,8 @@ dependencies:
   http: ^0.13.3
   location: ^4.3.0
   url_launcher: ^6.0.20
-  share_plus: ^6.0.0 # Ajoutez cette ligne pour le partage
-  connectivity_plus: ^3.0.6 # Ajoutez cette ligne pour vérifier la connectivité
+  share_plus: ^4.0.10
+  connectivity_plus: ^2.2.0
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +26,4 @@ flutter:
 
   assets:
     # Ajoutez ici vos fichiers d'assets si nécessaire
+
